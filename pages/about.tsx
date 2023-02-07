@@ -2,8 +2,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import Container from 'components/Container';
-import avatar from 'public/avatar.jpg';
-import avatarBW from 'public/avatar-bw.jpg';
 
 export default function About() {
   return (
@@ -15,9 +13,6 @@ export default function About() {
         <div className="mb-8 prose dark:prose-dark leading-6">
           <h2>Links</h2>
           <ul>
-            <li>
-              Twitter: <a href="https://twitter.com/leeerob">@leeerob</a>
-            </li>
             <li>
               GitHub: <a href="https://github.com/leerob">@leerob</a>
             </li>
@@ -69,27 +64,6 @@ export default function About() {
             Lee Robinson graduated from Iowa State University with a B.S. in
             Computer Engineering.
           </p>
-          <h2>Headshots</h2>
-          <div className="flex space-x-8">
-            <a href="/avatar.jpg">
-              <Image
-                alt="Lee Robinson headshot"
-                width={400}
-                quality={100}
-                src={avatar}
-                className="rounded-md"
-              />
-            </a>
-            <a href="/avatar-bw.jpg">
-              <Image
-                alt="Lee Robinson headshot"
-                width={400}
-                quality={100}
-                src={avatarBW}
-                className="rounded-md"
-              />
-            </a>
-          </div>
         </div>
       </div>
     </Container>

@@ -32,44 +32,14 @@ export default function Footer() {
           >
             About
           </Link>
-          <ExternalLink href="https://leerob.substack.com">
-            Newsletter
-          </ExternalLink>
         </div>
         <div className="flex flex-col space-y-4">
-          <ExternalLink href="https://twitter.com/leeerob">
-            Twitter
+          <ExternalLink href="https://fosstodon.org/@mikolaszko">
+            Mastodon
           </ExternalLink>
-          <ExternalLink href="https://github.com/leerob">GitHub</ExternalLink>
-          <ExternalLink href="https://www.youtube.com/@leerob">
-            YouTube
+          <ExternalLink href="https://github.com/mikolaszko">
+            GitHub
           </ExternalLink>
-        </div>
-        <div className="flex flex-col space-y-4">
-          <Link
-            href="/uses"
-            className="text-gray-500 hover:text-gray-600 transition"
-          >
-            Uses
-          </Link>
-          <Link
-            href="/guestbook"
-            className="text-gray-500 hover:text-gray-600 transition"
-          >
-            Guestbook
-          </Link>
-          <Link
-            href="/snippets"
-            className="text-gray-500 hover:text-gray-600 transition"
-          >
-            Snippets
-          </Link>
-          <Link
-            href="/tweets"
-            className="text-gray-500 hover:text-gray-600 transition"
-          >
-            Tweets
-          </Link>
         </div>
       </div>
     </footer>

@@ -3,7 +3,6 @@ import { parseISO, format } from 'date-fns';
 import { PropsWithChildren, Suspense } from 'react';
 
 import Container from 'components/Container';
-import ViewCounter from 'components/ViewCounter';
 import { Post } from 'lib/types';
 import { urlForImage } from 'lib/sanity';
 
@@ -13,7 +12,7 @@ export default function BlogLayout({
 }: PropsWithChildren<{ post: Post }>) {
   return (
     <Container
-      title={`${post.title} – Lee Robinson`}
+      title={`${post.title} – Mikołaj Sodzawiczny`}
       description={post.excerpt}
       image={urlForImage(post.coverImage).url()}
       date={new Date(post.date).toISOString()}
@@ -30,18 +29,16 @@ export default function BlogLayout({
               height={24}
               width={24}
               sizes="20vw"
-              src="/avatar.jpg"
+              src="/avatar.png"
               className="rounded-full"
             />
             <p className="ml-2 text-sm text-gray-700 dark:text-gray-300">
-              {'Lee Robinson / '}
+              {'Mikołaj Sodzawiczny / '}
               {format(parseISO(post.date), 'MMMM dd, yyyy')}
             </p>
           </div>
           <p className="mt-2 text-sm text-gray-600 dark:text-gray-400 min-w-32 md:mt-0">
             {post.readingTime}
-            {` • `}
-            <ViewCounter slug={post.slug} />
           </p>
         </div>
         <Suspense fallback={null}>
@@ -50,29 +47,11 @@ export default function BlogLayout({
           </div>
           <div className="mt-8 text-sm text-gray-700 dark:text-gray-300">
             <a
-              href="https://leerob.substack.com/"
+              href={`https://fosstodon.org/@mikolaszko`}
               target="_blank"
               rel="noopener noreferrer"
             >
-              {'Subscribe for updates'}
-            </a>
-            {` • `}
-            <a
-              href={`https://mobile.twitter.com/search?q=${encodeURIComponent(
-                `https://leerob.io/blog/${post.slug}`
-              )}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {'Discuss on Twitter'}
-            </a>
-            {` • `}
-            <a
-              href="https://github.com/leerob/leerob.io/issues"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {'Suggest Change'}
+              {'Discuss on Mastodon'}
             </a>
           </div>
         </Suspense>
