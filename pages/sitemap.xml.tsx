@@ -7,7 +7,7 @@ const createSitemap = (slugs) => `<?xml version="1.0" encoding="UTF-8"?>
           .map((slug) => {
             return `
                 <url>
-                    <loc>${`https://leerob.io/${slug}`}</loc>
+                    <loc>${`https://sodzawiczny.com/${slug}`}</loc>
                 </url>
             `;
           })
@@ -18,16 +18,7 @@ export async function getServerSideProps({ res }) {
   const allPosts = await sanityClient.fetch(postSlugsQuery);
   const allPages = [
     ...allPosts.map((slug) => `blog/${slug}`),
-    ...[
-      '',
-      'about',
-      'blog',
-      'dashboard',
-      'guestbook',
-      'newsletter',
-      'tweets',
-      'uses'
-    ]
+    ...['', 'about', 'blog']
   ];
 
   res.setHeader('Content-Type', 'text/xml');

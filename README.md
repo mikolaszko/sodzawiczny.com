@@ -11,11 +11,9 @@
 
 - `layouts/*` - The different page layouts each MDX category (blog, snippets) uses.
 - `lib/*` - Short for "library", a collection of helpful utilities or code for external services.
-- `pages/api/*` - [API Routes](https://nextjs.org/docs/api-routes/introduction) powering [`/dashboard`](https://leerob.io/dashboard), newsletter subscription, guestbook, and post views.
 - `pages/blog/*` - Static pre-rendered blog pages using MDX.
 - `pages/sitemap.xml.tsx` - Automatically generated sitemap.
 - `pages/*` - All other static pages.
-- `prisma/*` - My Prisma schema, which uses a PlanetScale MySQL database.
 - `public/*` - Static assets including fonts and images.
 - `styles/*` - A small amount of global styles. I'm mostly using vanilla Tailwind CSS.
 
@@ -29,3 +27,7 @@ cd sodzawiczny.com
 pnpm install
 pnpm dev
 ```
+
+## Credit
+
+Lee Robinson is an awesome guy, I learned a ton by bisecting his project and if I were you I would check his stuff out [here](https://leerob.io/)
