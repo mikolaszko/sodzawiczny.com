@@ -49,7 +49,7 @@ export default function BlogLayout({
             <a
               href={`https://fosstodon.org/@mikolaszko`}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="me noopener noreferrer"
             >
               {'Discuss on Mastodon'}
             </a>
