@@ -41,8 +41,8 @@ export default function Home() {
           </h3>
           <div className="flex gap-6 flex-col md:flex-row">
             <BlogPostCard
-              title="Pressure on software engineers"
-              slug="pressure-on-swes"
+              title="Choosing a component library right for you"
+              slug="choosing-component-library"
             />
             <BlogPostCard
               title="Productive component navigation in Neovim"

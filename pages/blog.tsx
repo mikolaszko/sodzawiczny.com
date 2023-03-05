@@ -60,9 +60,9 @@ export default function Blog({
               Most Popular
             </h3>
             <BlogPost
-              title="Pressure on software engineers"
-              excerpt="My 2 cents on the pressure that creative people put on themselves and hustle culture"
-              slug="pressure-on-swes"
+              title="Choosing a component library right for you"
+              excerpt="There are many component libraries out there, but which one is right for you?"
+              slug="choosing-component-library"
             />
             <BlogPost
               title="Productive component navigation in Neovim"
