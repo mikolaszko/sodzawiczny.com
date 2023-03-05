@@ -24,7 +24,7 @@ export default function Blog({
         <h1 className="mb-4 text-3xl font-bold tracking-tight text-black md:text-5xl dark:text-white">
           Blog
         </h1>
-        <p className="mb-4 text-gray-600 dark:text-gray-400">
+        <p className="mb-4 text-gray-600 dark:text-green-leaf">
           I've picked up writing only recently because I wanted to own a little
           space on the internet when I can ramble on about stuff I find
           interesting.
@@ -60,9 +60,9 @@ export default function Blog({
               Most Popular
             </h3>
             <BlogPost
-              title="365 scripts in 365 days"
-              excerpt="A overview of my year long project about scripts. They are so fun and I want to learn as much as I can about them but life constantly gets in a way. That's what this is all about."
-              slug="scripts"
+              title="Pressure on software engineers"
+              excerpt="My 2 cents on the pressure that creative people put on themselves and hustle culture"
+              slug="pressure-on-swes"
             />
             <BlogPost
               title="Productive component navigation in Neovim"
@@ -81,7 +81,7 @@ export default function Blog({
             All Posts
           </h3>
           {!filteredBlogPosts.length && (
-            <p className="mb-4 text-gray-600 dark:text-gray-400">
+            <p className="mb-4 text-gray-600 dark:text-green-leaf">
               No posts found.
             </p>
           )}

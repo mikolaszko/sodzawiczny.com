@@ -13,7 +13,7 @@ html {
 }
 
 #__next {
-  @apply bg-gray-50 dark:bg-gray-900;
+  @apply bg-gray-50 dark:bg-bottle-green;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -75,7 +75,7 @@ html {
 }
 
 .prose pre {
-  @apply border border-gray-200 bg-gray-50 dark:border-gray-700 dark:bg-gray-900;
+  @apply border border-gray-200 bg-gray-50 dark:border-gray-700 dark:bg-bottle-green;
 }
 
 .prose code {
@@ -197,11 +197,6 @@ input[type='email'] {
 
 .step > h3 {
   @apply my-0;
-}
-
-.prose .tweet a {
-  text-decoration: inherit;
-  font-weight: inherit;
 }
 
 table {

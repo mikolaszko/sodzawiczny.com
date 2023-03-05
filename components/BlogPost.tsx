@@ -24,7 +24,7 @@ export default function BlogPost({
             {title}
           </h4>
         </div>
-        <p className="text-gray-600 dark:text-gray-400">{excerpt}</p>
+        <p className="text-gray-600 dark:text-green-leaf">{excerpt}</p>
       </div>
     </Link>
   );

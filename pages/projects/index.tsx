@@ -1,5 +1,4 @@
 import Container from 'components/Container';
-import FunctionCard from 'components/FunctionCard';
 import { InferGetStaticPropsType } from 'next';
 import { allSnippetsQuery } from 'lib/queries';
 import { getClient } from 'lib/sanity-server';
@@ -17,7 +16,7 @@ export default function Snippets({
         <h1 className="mb-4 text-3xl font-bold tracking-tight text-black md:text-5xl dark:text-white">
           Projects
         </h1>
-        <p className="mb-4 text-gray-600 dark:text-gray-400">Loading...</p>
+        <p className="mb-4 text-gray-600 dark:text-green-leaf">Loading...</p>
       </div>
     </Container>
   );

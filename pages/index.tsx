@@ -4,7 +4,6 @@ import Link from 'next/link';
 
 import Container from '../components/Container';
 import BlogPostCard from '../components/BlogPostCard';
-import VideoCard from '../components/VideoCard';
 
 export default function Home() {
   return (
@@ -20,7 +19,7 @@ export default function Home() {
                 Software Engineer at{' '}
                 <span className="font-semibold">SoftKraft</span>
               </h2>
-              <p className="text-gray-600 dark:text-gray-400 mb-16">
+              <p className="text-gray-600 dark:text-green-leaf mb-16">
                 Creating scalable platforms. Linux enthusiast, TypeScript wizard
                 in making, Rust and Go fan with love for CLI tooling
               </p>
@@ -37,25 +36,21 @@ export default function Home() {
               />
             </div>
           </div>
-
           <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-6 text-black dark:text-white">
             Featured Posts
           </h3>
           <div className="flex gap-6 flex-col md:flex-row">
             <BlogPostCard
-              title="365 scripts in 365 days"
-              slug="scripts"
-              gradient="from-[#D8B4FE] to-[#818CF8]"
+              title="Pressure on software engineers"
+              slug="pressure-on-swes"
             />
             <BlogPostCard
               title="Productive component navigation in Neovim"
               slug="component-navigation-nvim"
-              gradient="from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]"
             />
             <BlogPostCard
               title="Computers make no sense"
               slug="how-does-anything-work"
-              gradient="from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]"
             />
           </div>
           <Link

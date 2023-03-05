@@ -37,7 +37,7 @@ export default function BlogLayout({
               {format(parseISO(post.date), 'MMMM dd, yyyy')}
             </p>
           </div>
-          <p className="mt-2 text-sm text-gray-600 dark:text-gray-400 min-w-32 md:mt-0">
+          <p className="mt-2 text-sm text-gray-600 dark:text-green-leaf min-w-32 md:mt-0">
             {post.readingTime}
           </p>
         </div>
