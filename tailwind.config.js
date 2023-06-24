@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'bottle-green': "#004643",
-        'lazy-sun': '#F9BC60',
+        'bottle-green': '#004643',
+        'lazy-sun': '#ffe6a7',
         'green-leaf': '#A2CABF',
         'blue-opaque': 'rgb(13 42 148 / 18%)',
         gray: {

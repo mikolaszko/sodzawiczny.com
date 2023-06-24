@@ -17,7 +17,7 @@ export default function BlogPostCard({ title, slug }) {
         'rounded-xl w-full md:w-1/3 p-1'
       )}
     >
-      <div className="flex flex-col justify-between h-full bg-white border-black border-4 dark:bg-lazy-sun rounded-lg  p-4">
+      <div className="flex flex-col justify-between h-full bg-white border-black border-4 dark:border-gray-900 dark:bg-lazy-sun rounded-lg  p-4">
         <div className="flex flex-col md:flex-row justify-between">
           <h4 className="text-lg md:text-lg font-medium mb-6 sm:mb-10 w-full text-gray-900 tracking-tight">
             {title}

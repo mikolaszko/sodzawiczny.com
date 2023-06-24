@@ -16,12 +16,13 @@ export default function Home() {
                 Mikołaj Sodzawiczny
               </h1>
               <h2 className="text-gray-700 dark:text-gray-200 mb-4">
-                Software Engineer at{' '}
-                <span className="font-semibold">SoftKraft</span>
+                Senior Software Engineer at{' '}
+                <span className="font-semibold">WorldAnvil</span>
               </h2>
               <p className="text-gray-600 dark:text-green-leaf mb-16">
-                Creating scalable platforms. Linux enthusiast, TypeScript wizard
-                in making, Rust and Go fan with love for CLI tooling
+                Creating scalable platforms. Opinionated enthusiast of
+                technology that helps me ship products faster. Advocating for
+                better developer ergonomics everywhere I go!
               </p>
             </div>
             <div className="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
