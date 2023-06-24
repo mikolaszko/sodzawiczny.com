@@ -41,10 +41,7 @@ export default function Home() {
             Featured Posts
           </h3>
           <div className="flex gap-6 flex-col md:flex-row">
-            <BlogPostCard
-              title="Choosing a component library right for you"
-              slug="choosing-component-library"
-            />
+            <BlogPostCard title="PHP is good" slug="php-is-good" />
             <BlogPostCard
               title="Productive component navigation in Neovim"
               slug="component-navigation-nvim"

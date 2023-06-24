@@ -60,9 +60,9 @@ export default function Blog({
               Most Popular
             </h3>
             <BlogPost
-              title="Choosing a component library right for you"
-              excerpt="There are many component libraries out there, but which one is right for you?"
-              slug="choosing-component-library"
+              title="PHP is good"
+              excerpt="I like PHP, sue me"
+              slug="php-is-good"
             />
             <BlogPost
               title="Productive component navigation in Neovim"
